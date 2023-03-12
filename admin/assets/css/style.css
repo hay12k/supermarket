@@ -216,3 +216,16 @@ main .insights > div{
 main .insights > div:hover{
     box-shadow: none;
 }
+main .insights > div span{
+    background: var(--color-primary);
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--color-white);
+    font-size: 2rem;
+}
+main .insights > div.expenses span{
+    background: var(--color-danger);
+}
+main .insights > div.income span{
+    background: var(--color-success);
+}
