@@ -11,6 +11,7 @@
     --color-dark: #363949;
     --color-light: rgba(132, 139, 200, 0.18);
     --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
     --color-background: #f6f6f9;
 
     --card-border-radius: 2rem;
@@ -37,7 +38,7 @@ html{
     font-size: 14px;
 }
 body{
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     font-family: poppins,sans-serif;
     font-size: 0.88rem;
@@ -73,11 +74,11 @@ h3{
 h4{
     font-size: 0.8rem;
 }
-h15{
+h5{
     font-size: 0.77rem;
 }
 small{
-    font-size: 0.765rem;
+    font-size: 0.75rem;
 }
 .profile-photo{
     width: 2.8rem;
@@ -89,7 +90,7 @@ small{
     color: var(--color-info-dark);
 }
 p{
-    color: var(--color-primary-variant);
+    color: var(--color-dark-variant);
 }
 b{
     color: var(--color-dark);
@@ -110,7 +111,6 @@ aside{
     height: 100vh;
 }
 aside .top{
-    background: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -131,7 +131,7 @@ aside .close{
 aside .sidebar{
     display: flex;
     flex-direction: column;
-    height: 97vh;
+    height: 90vh;
     position: relative;
     top: 3rem;
 }
@@ -162,8 +162,8 @@ aside .sidebar a.active{
     color: var(--color-primary);
     margin-left: 0;
 }
-aside .sidebar a.active::before{
-    content: "";
+aside .sidebar a.active:before{
+    content: '';
     width: 6px;
     height: 100%;
     background: var(--color-primary);
