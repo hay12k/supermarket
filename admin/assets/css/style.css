@@ -152,11 +152,6 @@ aside .sidebar a span{
     font-size: 1.6rem;
     transition: all 300ms ease;
 }
-aside .sidebar a:last-child{
-    position: absolute;
-    bottom: 2rem;
-    width: 100%;
-}
 aside .sidebar a.active{
     background: var(--color-light);
     color: var(--color-primary);
